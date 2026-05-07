@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaviya T B — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">KTB</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text">KAVIYA</div>
+    <div class="hero-content">
+      <p class="hero-tag reveal">— Fresh Graduate · B.Tech IT</p>
+      <h1 class="hero-name reveal">
+        <span class="line">Kaviya</span>
+        <span class="line italic">T B</span>
+      </h1>
+      <p class="hero-desc reveal">
+        Full-stack developer with a passion for clean code,<br>
+        real-world problem solving, and building things that matter.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn-primary">See My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">scroll ↓</div>
+    <div class="hero-strip">
+      <span>Java</span><span>React.js</span><span>SQL</span>
+      <span>Spring Boot</span><span>Git</span><span>Agile</span>
+      <span>Java</span><span>React.js</span><span>SQL</span>
+      <span>Spring Boot</span><span>Git</span><span>Agile</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <span class="section-label">01 / About</span>
+          <h2 class="section-title">A little<br><em>about me</em></h2>
+        </div>
+        <div class="about-right">
+          <p class="about-text">
+            I'm a B.Tech IT graduate from Kingston Engineering College, Vellore (CGPA: 8.3), 
+            passionate about building robust software that solves real problems.
+          </p>
+          <p class="about-text">
+            From automated attendance systems presented at international conferences, to AI-powered 
+            gesture recognition models — I love turning ideas into working products.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num" data-count="8.3">0</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-count="2">0</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-count="1">0</span>
+              <span class="stat-label">Conference Paper</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <span class="section-label">02 / Skills</span>
+      <h2 class="section-title">What I<br><em>work with</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-delay="0">
+          <div class="skill-icon">{ }</div>
+          <h3>Languages</h3>
+          <ul>
+            <li>Java</li>
+      
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-card" data-delay="100">
+          <div class="skill-icon">&#9632;</div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>React.js</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-card" data-delay="200">
+          <div class="skill-icon">&#9651;</div>
+          <h3>Frameworks</h3>
+          <ul>
+            <li>Spring Boot</li>
+            <li>REST APIs</li>
+      
+          </ul>
+        </div>
+
+        <div class="skill-card" data-delay="300">
+          <div class="skill-icon">&#9675;</div>
+          <h3>Tools & Process</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>VS Code</li>
+            <li>Agile / SDLC</li>
+          </ul>
+        </div>
+
+       
+
+        <div class="skill-card" data-delay="500">
+          <div class="skill-icon">&#9679;</div>
+          <h3>Databases</h3>
+          <ul>
+            <li>MySQL</li>
+            <li>SQL Queries</li>
+            <li>Data Processing</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <span class="section-label">03 / Projects</span>
+      <h2 class="section-title">Things I've<br><em>built</em></h2>
+      <div class="projects-list">
+
+        <div class="project-card" id="proj1">
+          <div class="project-num">01</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>Java</span><span>Barcode</span><span>SDLC</span><span>Agile</span>
+            </div>
+            <h3>Student Attendance System<br>Using Barcode</h3>
+            <p>Automated attendance tracking system built with real-time barcode scanning. 
+            Translated functional requirements into a full development plan, performed unit testing, 
+            bug fixing, and performance optimization — reducing manual attendance errors significantly.</p>
+            <div class="project-highlight">
+              <span class="highlight-badge">&#127941; ICCIEEE 2023 — International Conference Paper</span>
+            </div>
+            <ul class="project-points">
+              <li>Designed and implemented end-to-end solution following SDLC</li>
+              <li>Unit testing, bug tracking &amp; performance optimisation</li>
+              <li>Eliminated manual attendance errors in real-time deployment</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card" id="proj2">
+          <div class="project-num">02</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>Python</span><span>OpenCV</span><span>TensorFlow</span><span>AI/ML</span>
+            </div>
+            <h3>Air Recognition Model<br>for Deaf &amp; Dumb People</h3>
+            <p>Real-time hand gesture recognition model built using AI/ML concepts, image processing 
+            pipelines, and prediction logic. Iterative testing and debugging cycles improved model 
+            accuracy significantly on large datasets.</p>
+            <ul class="project-points">
+              <li>Implemented real-time image processing using OpenCV</li>
+              <li>Built and trained model with TensorFlow for gesture prediction</li>
+              <li>Iterative optimisation through testing and validation</li>
+              <li>Full system documentation for knowledge transfer</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education section" id="education">
+    <div class="container">
+      <span class="section-label">04 / Education</span>
+      <h2 class="section-title">My<br><em>journey</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2020 – 2024</span>
+            <h3>B.Tech — Information Technology</h3>
+            <p>Kingston Engineering College, Vellore</p>
+            <span class="timeline-grade">CGPA: 8.3</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2020</span>
+            <h3>HSC — Class XII</h3>
+            <p>Namakkal Teachers Vidhyaashram MHSS</p>
+            <span class="timeline-grade">69%</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2018</span>
+            <h3>SSLC — Class X</h3>
+            <p>Ambalal Jain Saraswathi Matriculation Vidhyalaya</p>
+            <span class="timeline-grade">85%</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certifications section" id="certifications">
+    <div class="container">
+      <span class="section-label">05 / Certifications &amp; Workshops</span>
+      <h2 class="section-title">Learning &amp;<br><em>recognition</em></h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon">&#9670;</div>
+          <h3>Full Stack Development</h3>
+          <p>KodNest — Pursuing</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">&#9670;</div>
+          <h3>Data Science &amp; Analytics</h3>
+          <p>HP Life — Completed</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">&#9670;</div>
+          <h3>Cybersecurity &amp; Ethical Hacking</h3>
+          <p>CSIAC &amp; National Cyber Safety Standards</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">&#9670;</div>
+          <h3>Paper Presentation</h3>
+          <p>ICCIEEE 2023 International Conference</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">&#9670;</div>
+          <h3>Ethical Hacking Presentation</h3>
+          <p>Institution's Innovation Council</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <span class="section-label">06 / Contact</span>
+      <h2 class="section-title">Let's<br><em>connect</em></h2>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p>I'm currently open to internship and fresher opportunities. 
+          If you have a role that fits, I'd love to hear from you.</p>
+          <div class="contact-links">
+            <a href="mailto:kaviyababu2443@gmail.com" class="contact-item">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">kaviyababu2443@gmail.com</span>
+            </a>
+            <a href="tel:6380121319" class="contact-item">
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">+91 6380121319</span>
+            </a>
+            <a href="https://github.com/kaviyababu24/portfolio" target="_blank" class="contact-item">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">github.com/kaviyababu24</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your name" required autocomplete="off"/>
+              <label for="name">Your name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your email" required autocomplete="off"/>
+              <label for="email">Your email</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+              <label for="message">Your message</label>
+            </div>
+            <button type="submit" class="btn-primary" id="submitBtn">Send Message</button>
+            <p class="form-success" id="formSuccess">Thanks! I'll be in touch soon.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Kaviya T B &copy; 2024</span>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
